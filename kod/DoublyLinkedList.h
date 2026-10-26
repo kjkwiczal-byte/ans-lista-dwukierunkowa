@@ -28,6 +28,9 @@ public:
     void print();
     void print_reverse();
     void clear();
+    int get_size();
+    bool is_empty();
+
 
     /**
      * @brief Zwraca iterator ustawiony na początek listy
