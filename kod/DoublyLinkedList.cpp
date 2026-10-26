@@ -136,3 +136,6 @@ void DoublyLinkedList::clear() {
 ListIterator DoublyLinkedList::getIterator() {
     return ListIterator(head);
 }
+int DoublyLinkedList::get_size() {
+    return size;
+}
