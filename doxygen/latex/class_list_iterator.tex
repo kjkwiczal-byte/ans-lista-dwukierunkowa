@@ -1,0 +1,101 @@
+\doxysection{List\+Iterator Class Reference}
+\hypertarget{class_list_iterator}{}\label{class_list_iterator}\index{ListIterator@{ListIterator}}
+
+
+Klasa realizująca wzorzec projektowy Iterator. Pozwala na poruszanie się po elementach listy dwukierunkowej bez odsłaniania jej wewnętrznej struktury.  
+
+
+
+
+{\ttfamily \+\#include $<$Listiterator.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_list_iterator_a319874d6e9b4b29d95530311ad833b78}{List\+Iterator}} (\doxymbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*}start\+Node)
+\begin{DoxyCompactList}\small\item\em Konstruktor iteratora. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_list_iterator_a25d476f0dbdfa7d2f119b81040e748a2}{next}} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator na następny element. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_list_iterator_a5483e1c29a06ad3913b298ed1052d899}{prev}} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator na poprzedni element. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_list_iterator_a8537b5fa4e13ce79eb1fbcc8e9e6701f}{print\+Current}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca wartość aktualnego węzła i wypisuje ją na ekran. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_list_iterator_afcf30d1024e46a7013d912c31d5ccd6d}{is\+Valid}} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy iterator doszedł do końca/\+początku (czy wskazuje na nullptr). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa realizująca wzorzec projektowy Iterator. Pozwala na poruszanie się po elementach listy dwukierunkowej bez odsłaniania jej wewnętrznej struktury. 
+
+\label{class_list_iterator_doc-constructors}
+\Hypertarget{class_list_iterator_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_list_iterator_a319874d6e9b4b29d95530311ad833b78}\index{ListIterator@{ListIterator}!ListIterator@{ListIterator}}
+\index{ListIterator@{ListIterator}!ListIterator@{ListIterator}}
+\doxysubsubsection{\texorpdfstring{ListIterator()}{ListIterator()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a319874d6e9b4b29d95530311ad833b78} 
+List\+Iterator::\+\+List\+Iterator (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*}}]{start\+Node}{}\end{DoxyParamCaption})}
+
+
+
+Konstruktor iteratora. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Node} & Węzeł, od którego rozpoczynamy iterację \\
+\hline
+\end{DoxyParams}
+
+
+\label{class_list_iterator_doc-func-members}
+\Hypertarget{class_list_iterator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_list_iterator_afcf30d1024e46a7013d912c31d5ccd6d}\index{ListIterator@{ListIterator}!isValid@{isValid}}
+\index{isValid@{isValid}!ListIterator@{ListIterator}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily \label{class_list_iterator_afcf30d1024e46a7013d912c31d5ccd6d} 
+bool List\+Iterator::\+is\+Valid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Sprawdza, czy iterator doszedł do końca/\+początku (czy wskazuje na nullptr). 
+
+\begin{DoxyReturn}{Returns}
+true jeśli wskazuje na poprawny obiekt, false jeśli na nullptr 
+\end{DoxyReturn}
+\Hypertarget{class_list_iterator_a25d476f0dbdfa7d2f119b81040e748a2}\index{ListIterator@{ListIterator}!next@{next}}
+\index{next@{next}!ListIterator@{ListIterator}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a25d476f0dbdfa7d2f119b81040e748a2} 
+void List\+Iterator::\+next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Przesuwa iterator na następny element. 
+
+\Hypertarget{class_list_iterator_a5483e1c29a06ad3913b298ed1052d899}\index{ListIterator@{ListIterator}!prev@{prev}}
+\index{prev@{prev}!ListIterator@{ListIterator}}
+\doxysubsubsection{\texorpdfstring{prev()}{prev()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a5483e1c29a06ad3913b298ed1052d899} 
+void List\+Iterator::\+prev (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Przesuwa iterator na poprzedni element. 
+
+\Hypertarget{class_list_iterator_a8537b5fa4e13ce79eb1fbcc8e9e6701f}\index{ListIterator@{ListIterator}!printCurrent@{printCurrent}}
+\index{printCurrent@{printCurrent}!ListIterator@{ListIterator}}
+\doxysubsubsection{\texorpdfstring{printCurrent()}{printCurrent()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a8537b5fa4e13ce79eb1fbcc8e9e6701f} 
+void List\+Iterator::\+print\+Current (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Zwraca wartość aktualnego węzła i wypisuje ją na ekran. 
+
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+kod/\doxymbox{\hyperlink{_listiterator_8h}{Listiterator.\+h}}\item 
+kod/\doxymbox{\hyperlink{_list_iterator_8cpp}{List\+Iterator.\+cpp}}\end{DoxyCompactItemize}
